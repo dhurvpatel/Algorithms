@@ -1,3 +1,5 @@
+// Author : Dhruv Patel
+//
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -53,5 +55,6 @@ int main(void){
 		cout<<RangMinQuery(input, 0, size - 1, length-1, size - 1 + left, size - 1 + right)<<endl;
 	}
 	
+
 	return 0;
 }
